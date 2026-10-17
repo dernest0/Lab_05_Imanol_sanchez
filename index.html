@@ -9,63 +9,64 @@
   <fieldset> <!-- just to get same format on the image-->
 
   <legend>My Info:</legend>
-    <label for="fname">First Name:</label>
-    <input type="text" id="fname" name="fname"><br>
+    <label for="first_name_field">first Name:</label>
+    <input type="text" id="first_name_field" name="first_name_field"><br>
 
-    <label for="lname">last name:</label>
-    <input type="text" id="lname" name="lname"><br>
+    <label for="last_name_field">last name:</label>
+    <input type="text" id="last_name_field" name="last_name_field"><br>
 
-    <label for="phone">phone:</label>
-    <input type="text" id="phone" name="phone"><br>
+    <label for="phone_field">phone:</label>
+    <input type="text" id="phone_field" name="phone_field"><br>
 
-    <label for="email">email:</label>
-    <input type="text" id="email" name="email"><br>
+    <label for="email_field">email:</label>
+    <input type="text" id="email_field" name="email_field"><br>
 
-    <label for="Gender">Gender:</label>
-    <input type="radio" id="Male" name="Gender" value="Male">
-    <label for="Male">Male</label>
+    <label for="gender_field">gender:</label>
+    <input type="radio" id="Male" name="gender_field" value="Male">
+    <label for="gender_field">Male</label>
 
-    <input type="radio" id="Female" name="Gender" value="Female">
-    <label for="Female">Female</label><br>
+    <input type="radio" id="Female" name="gender_field" value="Female">
+    <label for="gender_field">Female</label><br>
 
-    <label for="Age">Age:</label><br>
-    <select id="age" name="age">
+    <label for="age_field">Age:</label><br>
+    <select id="age_field" name="age_field">
       <option value="Over 18">Over 18</option>
       <option value="Under 18">Under 18</option>
     </select>
   </fieldset>
 
   <fieldset>
-  <legend>My Availability</legend>
+  <legend>My available_field[]</legend>
 
     <h3> Days Avaliable:</h3>
-    <label for="availability">Availability:</label><br>
-    <input type="checkbox" id="Sunday" name="availability" value="Sunday">
+    <label for="available_field[]">Available:</label><br>
+    <input type="checkbox" id="Sunday" name="available_field[]" value="Sunday">
     <label for="Sunday">Sunday</label><br>
 
-    <input type="checkbox" id="Monday" name="availability" value="Monday">
+    <input type="checkbox" id="Monday" name="available_field[]" value="Monday">
     <label for="Monday">Monday</label><br>
 
-    <input type="checkbox" id="Tuesday" name="availability" value="Tuesday">
+    <input type="checkbox" id="Tuesday" name="available_field[]" value="Tuesday">
     <label for="Tuesday">Tuesday</label><br>
 
-    <input type="checkbox" id="Wednesday" name="availability" value="Wednesday">
+    <input type="checkbox" id="Wednesday" name="available_field[]" value="Wednesday">
     <label for="Wednesday">Wednesday</label><br>
 
-    <input type="checkbox" id="Thursday" name="availability" value="Thursday">
+    <input type="checkbox" id="Thursday" name="available_field[]" value="Thursday">
     <label for="Thursday">Thursday</label><br>
 
-    <input type="checkbox" id="Friday" name="availability" value="Friday">
+    <input type="checkbox" id="Friday" name="available_field[]" value="Friday">
     <label for="Friday">Friday</label><br>
 
-    <input type="checkbox" id="Saturday" name="availability" value="Saturday">
+    <input type="checkbox" id="Saturday" name="available_field[]" value="Saturday">
     <label for="Saturday">Saturday</label><br>
   
     <h3> Comments </h3>
-  <textarea name="message" rows="2" cols="30">
+  <textarea name="comments_field" rows="2" cols="30">
   </textarea>
   </fieldset>
   <input type="submit" value="Submit Query">
+  <input type="hidden" name="hidden_field" value="Imanol Sanchez">
 </form>
 </body>
 </html>
