@@ -8,7 +8,7 @@
  <form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php">
   <fieldset> <!-- just to get same format on the image-->
 
-    <legend>My Info:</legend>
+  <legend>My Info:</legend>
     <label for="fname">first name:</label>
     <input type="text" id="fname" name="fname"><br>
 
@@ -36,11 +36,11 @@
   </fieldset>
 
   <fieldset>
-   <legend>My Availability</legend>
+  <legend>My Availability</legend>
 
-   <h3> Days Avaliable:</h3>
+    <h3> Days Avaliable:</h3>
     <label for="availability">Availability:</label><br>
-    <input type="checkbox" id="Monday" name="availability" value="Monday">
+    <input type="checkbox" id="Sunday" name="availability" value="Sunday">
     <label for="Sunday">Sunday</label><br>
 
     <input type="checkbox" id="Monday" name="availability" value="Monday">
@@ -58,10 +58,14 @@
     <input type="checkbox" id="Friday" name="availability" value="Friday">
     <label for="Friday">Friday</label><br>
 
-    <input type="checkbox" id="Monday" name="availability" value="Monday">
+    <input type="checkbox" id="Saturday" name="availability" value="Saturday">
     <label for="Saturday">Saturday</label><br>
-    
+  
+    <h3> Comments </h3>
+  <textarea name="message" rows="2" cols="30">
+  </textarea>
   </fieldset>
+  <input type="submit" value="Submit Query">
 </form>
 </body>
 </html>
